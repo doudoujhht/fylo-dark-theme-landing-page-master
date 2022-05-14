@@ -11,7 +11,7 @@
 #mont{
     position: absolute;
     transform: translateY(-99%);
-    width: 100vw;
+    width: 100%;
 }
 nav{
     font-family: 'Raleway', sans-serif;
@@ -35,7 +35,6 @@ nav{
 
 #section1{
     background: hsl(219, 30%, 18%);
-    width: 100vw;
     color: white;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -133,4 +132,53 @@ nav{
             border-bottom: #62E0D9 2px solid;
         }
     }
+}
+
+
+#section4{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    font-weight: 400;
+    background: #181F2B;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10%;
+
+    .quotes{
+        margin-left: 9%;
+    }
+
+    #container{
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        justify-content: space-between;
+
+        .element{
+            box-shadow: 0 7px 14px hsl(219, 30%, 18%);
+            padding: 2.2% 1.1%;
+            border-radius: 15px;
+            width: 25%;
+            background:hsl(219, 30%, 18%) ;
+
+            img{
+                border-radius: 50%;
+                width: 15%;
+                height: 15%;
+            }
+            #compte{
+                display: flex;
+                margin-top: 5%;
+                #nom{
+                    font-weight: 300;
+                    font-size: 0.8em;
+                    padding-left: 5%;
+                }
+            }
+        }
+    }
+}
+
+#section5{
+    
 }
